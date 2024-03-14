@@ -1,4 +1,4 @@
-#ExabeamQueries
+# ExabeamQueries
                                                                                  
                                                                                  
 A collection of Exabeam queries to be used for threat hunting & detection
