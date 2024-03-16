@@ -7,17 +7,10 @@ Note: Some of these fields being used in published queries may be differ in your
 I encourage any contribution of hunting/detection rules to the respository and would love to colloborate on some queries!
 
 ## Log Sources: 
-
+The queries in this repository will be querying data from below log sources: 
 
 ### AWS CloudTrail:
-Queries for hunting CloudTrail logs that are ingested
-
 ### Office 365:
-Queries for hunting Microsoft 365 logs that are ingested
-
 ### Windows:
-Queries for hunting on windows logging that is ingested
 ### Linux:
-Queries for hunting on Linux logging that is ingested
 ### Okta:
-Queries for hunting Okta Logs that are ingested
