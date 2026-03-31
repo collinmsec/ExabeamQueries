@@ -8,4 +8,7 @@ _NOTE: Some of the IOCs in the queries will be dafanged just for safety so pleas
 
 `dest_ip:142[.]11[.]206[.]73`
 
+### Malicious File on Disk (Windows)
+`process_dir: "C:\\ProgramData\\" AND process_name:("system.bat","wt.exe")`
+
 Inspiration/Reference: https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan, https://www.aikido.dev/blog/axios-npm-compromised-maintainer-hijacked-rat
