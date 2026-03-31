@@ -4,6 +4,6 @@ _NOTE: Some of the IOCs in the queries will be dafanged just for safety so pleas
 ### Network IOCs :
 `url:RGXi("^packages\.npm\.org\/product[0-2]$")`
 
-`web_domaim:"sfrclak[.]com"`
+`web_domain:"sfrclak[.]com"`
 
 Inspiration/Reference: https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan
