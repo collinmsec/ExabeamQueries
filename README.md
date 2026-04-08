@@ -11,7 +11,7 @@
 
 # ExabeamQueries
                                                                 
-A collection of Exabeam queries to be used for threat hunting & detection
+A collection of Exabeam queries to be used for threat hunting & detection.
 
 I encourage any contribution of hunting/detection rules to the respository and would love to collaborate on some queries! If you are interested in contributing a query, please open a pull request.
 
@@ -42,4 +42,4 @@ Mandatory items for inside the file containing the query:
 * The query itself. 
 * Inspiration/Reference at the bottom of the file, if relevant. We want to credit others for work thay may have performed even if their rule was written in a different query language.
 
-If there are nay questions around this process i am happy to help and give guidance!
+If there are any questions around this process I am happy to help and give guidance!
