@@ -26,6 +26,7 @@ The queries in this repository will be querying data from below log sources:
 | Windows | 
 | Linux | 
 | Okta | 
+| Proofpoint |
 
 ## Contributing
 Please use pull requests for submitting changes to the ExabeamQueries repository. 
