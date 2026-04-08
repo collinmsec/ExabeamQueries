@@ -1,0 +1,6 @@
+_NOTE: Some of the fields that are being used may be different in your environment depending on parsing._ 
+
+### Click to malicious URL: 
+`(vendor:"Proofpoint" AND product:"Targeted Attack Platform") AND result:"clicksPermitted"`
+
+Inspiration/Reference: https://help.proofpoint.com/Threat_Insight_Dashboard/API_Documentation/SIEM_API
