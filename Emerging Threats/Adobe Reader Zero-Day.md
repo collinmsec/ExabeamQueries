@@ -12,11 +12,11 @@ _NOTE: I did not specify a vendor for these, but would be good to look at vendor
 _NOTE: I did not specify a vendor for these, but would be good to look at vendors logging http & https ._ 
 `dest_ip:(169[.]40[.]2[.]68, 188[.]214[.]34[.]20) AND (src_port:(34123,45191) OR dest_port:(34123,45191))`
 
-_NOTE: Looking for malicious domain
+_NOTE: Looking for malicious domain._ 
 `vendor:"zscaler" AND web_domain:"ado-read-parser[.]com"`
 `vendor:"zscaler" AND web_domain:"zx.ado-read-parser[.]com"`
 
-_NOTE: Looking for malicious URLs
+_NOTE: Looking for malicious URLs._ 
 `vendor:"zscaler" AND url:"hxxp[://]188[.]214[.]34[.]20:34123/rs1?rnd=<float>&od=422974"
 vendor:"zscaler" AND url:"hxxp[://]188[.]214[.]34[.]20:34123/s11?language=ENU&viewerType=Reader&viewerVersion=[.][.][.]&platform=WIN&activeDocs=[.][.][.]&errs=[.][.][.]&av=[.][.][.]&osVersion=[.][.][.]&pdfFile=[.][.][.]&rnd=[.][.][.]&od=422974"
 vendor:"zscaler" AND url:"hxxp[://]188[.]214[.]34[.]20:34123/s12?language=ENU&viewerType=Reader&viewerVersion=25[.]00120435&platform=WIN"
