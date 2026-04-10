@@ -17,6 +17,7 @@ _NOTE: Looking for malicious domain._
 `vendor:"zscaler" AND web_domain:"zx.ado-read-parser[.]com"`
 
 _NOTE: Looking for malicious URLs._ 
+
 `vendor:"zscaler" AND url:"hxxp[://]188[.]214[.]34[.]20:34123/rs1?rnd=<float>&od=422974"`
 
 `vendor:"zscaler" AND url:"hxxp[://]188[.]214[.]34[.]20:34123/s11?language=ENU&viewerType=Reader&viewerVersion=[.][.][.]&platform=WIN&activeDocs=[.][.][.]&errs=[.][.][.]&av=[.][.][.]&osVersion=[.][.][.]&pdfFile=[.][.][.]&rnd=[.][.][.]&od=422974"`
