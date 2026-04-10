@@ -4,15 +4,19 @@ _NOTE: Some of the IOCs in the queries will be dafanged just for safety so pleas
 ### Network IOCs :
 
 _NOTE: This is more of query to look for synchronizer initiated traffic, would be good to look at vendors logging http & https ._ 
+
 `vendor:"zscaler" AND user_agent:"Mozilla/3.0 (compatible; Adobe Synchronizer 23.8.20533)"`
 
 _NOTE: I did not specify a vendor for these, but would be good to look at vendors logging http & https ._ 
+
 `src_ip:(169[.]40[.]2[.]68, 188[.]214[.]34[.]20) AND (src_port:(34123,45191) OR dest_port:(34123,45191))`
 
 _NOTE: I did not specify a vendor for these, but would be good to look at vendors logging http & https ._ 
+
 `dest_ip:(169[.]40[.]2[.]68, 188[.]214[.]34[.]20) AND (src_port:(34123,45191) OR dest_port:(34123,45191))`
 
 _NOTE: Looking for malicious domain._ 
+
 `vendor:"zscaler" AND web_domain:"ado-read-parser[.]com"`
 `vendor:"zscaler" AND web_domain:"zx.ado-read-parser[.]com"`
 
