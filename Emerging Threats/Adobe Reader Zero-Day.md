@@ -9,11 +9,7 @@ _NOTE: This is more of query to look for synchronizer initiated traffic, would b
 
 _NOTE: I did not specify a vendor for these, but would be good to look at vendors logging http & https ._ 
 
-`src_ip:(169[.]40[.]2[.]68, 188[.]214[.]34[.]20) AND (src_port:(34123,45191) OR dest_port:(34123,45191))`
-
-_NOTE: I did not specify a vendor for these, but would be good to look at vendors logging http & https ._ 
-
-`dest_ip:(169[.]40[.]2[.]68, 188[.]214[.]34[.]20) AND (src_port:(34123,45191) OR dest_port:(34123,45191))`
+`subject:"https" AND (dest_ip:(169.40.2.68, 188.214.34.20) AND dest_port:(34123,45191))`
 
 _NOTE: Looking for malicious domain._ 
 
