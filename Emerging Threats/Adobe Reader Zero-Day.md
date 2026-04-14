@@ -6,6 +6,7 @@ _NOTE: Some of the IOCs in the queries will be dafanged just for safety so pleas
 _NOTE: This is more of query to look for synchronizer initiated traffic, would be good to look at vendors logging http & https ._ 
 
 `vendor:"zscaler" AND user_agent:"Mozilla/3.0 (compatible; Adobe Synchronizer 23.8.20533)"`
+`subject:"https" AND user_agent:"Mozilla/3.0 (compatible; Adobe Synchronizer 23.8.20533)"`
 
 _NOTE: I did not specify a vendor for these, but would be good to look at vendors logging http & https ._ 
 
