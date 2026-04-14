@@ -7,11 +7,11 @@ _NOTE: This is more of query to look for synchronizer initiated traffic, would b
 
 `vendor:"zscaler" AND user_agent:"Mozilla/3.0 (compatible; Adobe Synchronizer 23.8.20533)"`
 
-`subject:"https" AND user_agent:"Mozilla/3.0 (compatible; Adobe Synchronizer 23.8.20533)"`
+`subject:"http" AND user_agent:"Mozilla/3.0 (compatible; Adobe Synchronizer 23.8.20533)"`
 
 _NOTE: I did not specify a vendor for these, but would be good to look at vendors logging http & https ._ 
 
-`subject:"https" AND (dest_ip:(169.40.2.68, 188.214.34.20) AND dest_port:(34123,45191))`
+`subject:"http" AND (dest_ip:(169.40.2.68, 188.214.34.20) AND dest_port:(34123,45191))`
 
 _NOTE: Looking for malicious domain._ 
 
